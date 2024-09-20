@@ -1,8 +1,7 @@
-import Header from '../components/Header';
-import Title from '../components/Title';
-import Wave from '../components/Wave';
-// import Leadership from '../components/Leadership';
-import Topic from '../components/Topic';
+import Header from '../components/header';
+import Title from '../components/title';
+import Wave from '../components/wave';
+import Topic from '../components/topic';
 import Footer from "../components/footer";
 
 export default function BesOfLeadership() {
@@ -15,7 +14,6 @@ export default function BesOfLeadership() {
             />
             <Wave topColor="#2F6DAC" bottomColor="#F4F4F4" />
             <Wave topColor="#F4F4F4" bottomColor="#FFFFFF" />
-            {/*<Leadership/>*/}
                 <Topic
                     backgroundColor="#FFFFFF"
                     imageSrc="/be-better.png"

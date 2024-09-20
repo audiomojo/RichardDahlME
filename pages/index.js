@@ -1,9 +1,9 @@
-import Header from '../components/Header';
-import Title from '../components/Title';
-import Wave from '../components/Wave';
-import Welcome from '../components/Welcome';
+import Header from '../components/header';
+import Title from '../components/title';
+import Wave from '../components/wave';
+import Welcome from '../components/welcome';
 import CareerHighlights from "../components/career-highlights";
-import Footer from '../components/Footer';
+import Footer from '../components/footer';
 
 export default function Home() {
     return (
