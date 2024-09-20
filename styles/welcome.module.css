@@ -1,0 +1,69 @@
+.welcomeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #EAEAEE;
+    padding: 150px 150px 80px 150px; /* 150px padding on top, left, right, and bottom */
+    box-sizing: border-box; /* Ensure padding doesn't affect total width */
+}
+
+.textContainer {
+    flex: 1;
+    padding-right: 150px; /* Adds the 150px padding between the text and the image */
+    font-size: 18px;
+}
+
+.textContainer h1 {
+    color: #2F6DAC; /* Sets the h1 text color */
+}
+
+.textContainer ul {
+    list-style-type: disc; /* Keeps the default bullet style */
+    padding-left: 60px; /* Optional: adds some padding to indent the bullets */
+}
+
+.textContainer ul li {
+    margin-bottom: 10px; /* Adds space between bullet points */
+}
+
+.learnMoreLink {
+    color: #2F6DAC; /* Link color */
+    text-decoration: underline; /* Adds underline to the link */
+    transition: color 0.3s ease; /* Optional: Smooth color transition */
+}
+
+.learnMoreLink:hover {
+    color: #1F4E8C; /* Darker shade on hover (optional) */
+}
+
+.imageContainer img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px; /* Space between the text/picture div and the buttons */
+    background-color: #EAEAEE;
+}
+
+.button {
+    padding: 10px 20px;
+    border: 2px solid #2F6DAC;
+    background-color: #EAEAEE; /* Sets button background color */
+    color: #2F6DAC;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px; /* Makes the button text twice as large */
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #2F6DAC;
+    color: white;
+}

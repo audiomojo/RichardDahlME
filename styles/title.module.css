@@ -1,0 +1,26 @@
+.titleContainer {
+    width: 100%;
+    background-color: #2f6dac;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: clamp(3rem, 6vw, 6rem); /* Dynamic font size: min 2rem, max 4rem, scaling with viewport */
+    color: white;
+    margin: 0;
+    white-space: nowrap; /* Prevent wrapping for the title */
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center; /* Center the subtitle */
+    max-width: 90%; /* Ensure the subtitle doesn't stretch too far on large screens */
+    margin-top: 10px;
+    word-wrap: break-word; /* Allow the subtitle to wrap */
+}

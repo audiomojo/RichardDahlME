@@ -1,0 +1,17 @@
+/* wave.module.css */
+.waveContainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.top {
+    padding: 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+.bottom {
+    padding: 3rem;
+    position: relative;
+}

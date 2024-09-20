@@ -1,0 +1,96 @@
+.leadershipContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.carousel {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    position: relative;
+    flex-wrap: nowrap;
+}
+
+.carouselItem {
+    flex: 1 1 20%; /* Each item takes up 20% of the carousel width */
+    min-width: 20%;
+    transition: transform 0.5s ease-in-out;
+    opacity: 0.9;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Optional: Add a background to distinguish items */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Ensure text starts from the top */
+    align-items: center;
+    height: auto; /* Allow height to be flexible based on content */
+    overflow: visible; /* Ensure full text is visible */
+}
+
+.carouselImage {
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add space between image and text */
+    max-width: 100%; /* Ensure image is responsive */
+    max-height: 200px; /* Ensure image maintains a good size */
+    object-fit: contain; /* Keep the aspect ratio intact */
+}
+
+.title, .subtitle {
+    text-align: center;
+}
+
+.content {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    white-space: normal;
+}
+
+.arrowLeft, .arrowRight {
+    position: absolute;
+    top: 1%; /* Position arrows at the level of the images */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px;
+}
+
+.arrowLeft {
+    left: 30px;
+}
+
+.arrowRight {
+    right: 60px;
+}
+
+@media (max-width: 768px) {
+    .carouselItem {
+        min-width: 40%; /* Increase width for smaller screens */
+    }
+
+    .carouselImage {
+        max-height: 150px; /* Reduce image size for smaller screens */
+    }
+
+    .arrowLeft, .arrowRight {
+        font-size: 24px; /* Reduce arrow size for smaller screens */
+    }
+}
+.content {
+    margin-bottom: 8px; /* Adjust the bottom margin to reduce space between paragraphs */
+    line-height: 1.6; /* Optional: adjust line height for better readability */
+}

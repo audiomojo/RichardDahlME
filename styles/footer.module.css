@@ -1,0 +1,22 @@
+.footerContainer {
+    width: 100%;
+    background-color: #95B4DA;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footerTitle {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+}
+
+.footerEmail {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footerImage {
+    margin-top: 10px;
+}

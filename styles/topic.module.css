@@ -1,0 +1,79 @@
+.topicContainer {
+    display: flex;
+    width: 100%;
+    min-height: 300px; /* Ensure the topic component doesn't shrink smaller than the image */
+    box-sizing: border-box;
+    padding: 60px;
+    align-items: stretch; /* Ensure both left and right sections stretch based on content */
+}
+
+.leftSection {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensure the image is centered vertically */
+}
+
+.image {
+    max-width: 100%;
+    height: auto; /* Ensure the image scales properly */
+}
+
+.rightSection {
+    width: 66.67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Keep content aligned to the top */
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.title {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.subtitle {
+    height: 30px;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 0 50px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-grow: 1; /* Allow content to grow and push the height of the container */
+}
+
+.contentParagraph {
+    margin-bottom: 16px; /* Add space between paragraphs */
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
+.contentParagraph:last-child {
+    margin-bottom: 0; /* Ensure no extra margin on the last paragraph */
+}
+
+@media (max-width: 768px) {
+    .topicContainer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .leftSection, .rightSection {
+        width: 100%;
+    }
+
+    .image {
+        max-height: 150px;
+    }
+}

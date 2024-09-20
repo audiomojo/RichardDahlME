@@ -1,0 +1,83 @@
+.careerHighlightsContainer {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 75px 150px; /* Padding: 75px top, 150px sides and bottom */
+    box-sizing: border-box;
+    text-align: center; /* Center the text inside the container */
+}
+
+.careerTitle {
+    color: #2F6DAC;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the "Career Highlights" text */
+}
+
+.workExperienceLink {
+    color: #2F6DAC;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+    text-align: center; /* Center the link */
+    display: inline-block; /* Makes the link behave like an inline block to center */
+    margin-top: 10px; /* Adds a small gap between the title and the link */
+}
+
+.workExperienceLink:hover {
+    color: #1F4E8C;
+}
+
+.highlightsList {
+    margin-top: 20px;
+    text-align: left; /* Ensure the bullet points are left-aligned */
+    padding-left: 30px; /* Optional: add some padding */
+}
+
+.highlight {
+    margin-bottom: 60px;
+}
+
+.highlightTitle {
+    color: #2F6DAC;
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease; /* Optional: add hover transition */
+}
+
+.highlightTitle:hover {
+    color: #1F4E8C; /* Optional: Add hover effect to the title */
+}
+
+.highlightText {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 40px; /* Adds some padding for the text */
+}
+
+.testimonialsLink {
+    color: #2F6DAC;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.testimonialsLink:hover {
+    color: #1F4E8C;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    .careerHighlightsContainer {
+        padding: 50px 30px; /* Reduce padding on smaller screens */
+    }
+
+    .careerTitle {
+        font-size: 28px; /* Smaller title for mobile */
+    }
+
+    .highlightTitle {
+        font-size: 20px; /* Smaller highlight titles */
+    }
+
+    .highlightText {
+        font-size: 16px; /* Adjust text size */
+    }
+}
