@@ -11,3 +11,41 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 90%;
+        padding: 10px;
+    }
+
+    header, footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
