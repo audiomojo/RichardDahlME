@@ -10,7 +10,7 @@
 }
 
 .title {
-    font-size: clamp(1.5rem, 6vw, 6rem); /* Dynamic font size: min 2rem, max 4rem, scaling with viewport */
+    font-size: clamp(2.2rem, 6vw, 6rem); /* Dynamic font size: min 2rem, max 4rem, scaling with viewport */
     color: white;
     margin: 0;
     white-space: nowrap; /* Prevent wrapping for the title */
