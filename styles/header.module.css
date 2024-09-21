@@ -3,9 +3,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: #2f6dac;
-    padding: 20px 50px;
-    height: 70px;
-    font-size: 20px;
+    padding: 10px 20px;
+    font-size: 21px;
 }
 
 .headerStyle {
@@ -13,7 +12,6 @@
     justify-content: space-between;
     align-items: center;
     background-color: #2f6dac;
-    padding: 10px 20px;
 }
 
 .leftContainer, .rightContainer {
@@ -29,7 +27,6 @@
 .linkStyle {
     color: white;
     text-decoration: none;
-    margin-right: 10px;
 }
 
 .name {
@@ -37,35 +34,10 @@
     margin: 0;
 }
 
-.link {
-    color: white;
-    text-decoration: none;
-    position: relative; /* This is needed to position the ::after pseudo-element */
-    margin-right: 40px;
-    font-size: 29px;
-}
-
-.link::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px; /* The thickness of the underline */
-    background-color: white;
-    bottom: -5px; /* This positions the underline 10px below the text */
-    left: 0;
-    transform: scaleX(0);
-    transition: transform 0.3s ease; /* Smooth transition effect */
-}
-
-.link:hover::after {
-    transform: scaleX(1); /* Expands the underline on hover */
-}
-
 .linkedin-logo {
-    margin-left: 10px;
     display: flex;
     align-items: center; /* Center the logo vertically within the container */
-    height: 100%; /* Make the logo container fill the height of the flex container */
+    margin-left: 40px;
 }
 
 .linkedin-logo img {

@@ -22,7 +22,7 @@ const Welcome = () => {
                         <li>A mentor that excels in building high-performing teams and skilled leaders</li>
                         <li>A culture creator adept in fostering a psychologically safe, highly accountable environment</li>
                         <li>A communicator & collaborator that understands leadership and teamwork</li>
-                        <li>A career focused in B2B SaaS solutions for various industries</li>
+                        <li>A career focused in B2B SaaS solutions for health care, finance, and statistical analysis</li>
                     </ul>
                     <p className={styles.learnMore}>
                         You can learn more about my leadership style{' '}

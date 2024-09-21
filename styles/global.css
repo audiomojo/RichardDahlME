@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@100;200;300;400;500;600;700&display=swap');
+
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     background-color: #f0f0f0;
 }
 
@@ -13,21 +15,19 @@ a {
 }
 
 /* Mobile Styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     body {
         font-size: 90%;
-        padding: 10px;
     }
 
     header, footer {
-        padding: 10px;
         text-align: center;
     }
 
     .container {
         width: 100%;
         margin: 0 auto;
-        padding: 0 10px;
+        /*padding: 0 0px;*/
     }
 
     .title {

@@ -9,9 +9,6 @@ export default function Header() {
                 <h1 className={styles.name}>Richard Dahl</h1>
             </div>
             <div className={styles.rightContainer}>
-                <Link href="/" legacyBehavior>
-                    <a className={styles.link}>Home</a>
-                </Link>
                 <a
                     href="https://www.linkedin.com/in/dahl-richard/"
                     target="_blank"
