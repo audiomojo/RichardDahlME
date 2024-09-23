@@ -94,6 +94,18 @@ Being in the details is about being informed, not about taking control. If you d
             />
             <Topic
                 backgroundColor="#FFFFFF"
+                imageSrc="/be-present-and-accessible.png"
+                title="BE PRESENT AND ACCESSIBLE"
+                titleColor="#2F6DAC"
+                subtitle="Don't Skimp on Relationships"
+                content={`Being a present and accessible leader is key to building strong relationships. As Maya Angelou wisely said, "People will forget what you said, people will forget what you did, but people will never forget how you made them feel." Practicing active listening, showing genuine interest, and being available for your team fosters an atmosphere of trust, collaboration, and meaningful job satisfaction.
+
+Reflecting on the leaders who have had a profound impact on my career, those who helped me learn, grow, and achieve success coupled with high job satisfaction were the ones who built real connections with me. They are genuinely interested in me, my work, and my personal life. Their presence was not exploitative; they cared about both the work getting done and me as a person. These leaders were present, accessible, and offered encouragement, support, and praise as needed. The deep, collaborative connection we shared was a foundation for mutual respect, trust, and success.
+
+As a leader, you can't skimp on relationships. We're all busy, that’s a given, but don’t let busyness be a barrier to building meaningful relationships. Actively taking the time to know your team and making the effort to be present and accessible for them will enhance their careers and lives, as well as your own. It’s a win-win!!!`}
+            />
+            <Topic
+                backgroundColor="#FFFFFF"
                 imageSrc="/be-curious-and-collaborative.png"
                 title="BE CURIOUS AND COLLABORATIVE"
                 titleColor="#2F6DAC"
